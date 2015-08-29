@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stickerNameTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:text="My sticker" />
+
+    <TextView
+        android:id="@+id/stickerDetailsTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="My sticker details"
+        android:layout_below="@+id/stickerNameTV"
+        android:layout_marginLeft="35dp"
+        />
+
+    <ImageView
+        android:id="@+id/stickerIV"
+        android:layout_gravity="center"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/cupcake"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/stickerDetailsTV"/>
+
+    <TextView
+        android:id="@+id/pickedfromTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#FFE15E4A"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Picked from:"
+        android:layout_below="@+id/stickerNameTV"
+        android:layout_toRightOf="@+id/stickerIV"
+        />
+
+    <TextView
+        android:id="@+id/pickedfromInfoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Piata Unirii, Bucharest"
+        android:layout_below="@+id/pickedfromTV"
+        android:layout_toRightOf="@+id/stickerIV"
+        />
+
+    <TextView
+        android:id="@+id/availableuntilTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:textColor="#FFE15E4A"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:text="Available until:"
+        android:layout_below="@+id/pickedfromInfoTV"
+        android:layout_toRightOf="@+id/stickerIV"
+        />
+
+    <TextView
+        android:id="@+id/availableuntilInfoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="06.09.2015"
+        android:layout_below="@+id/availableuntilTV"
+        android:layout_toRightOf="@+id/stickerIV"
+        />
+
+    <TextView
+        android:id="@+id/createdbyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#FFE15E4A"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Created by:"
+        android:layout_below="@+id/availableuntilInfoTV"
+        android:layout_toRightOf="@+id/stickerIV"
+        />
+
+    <TextView
+        android:id="@+id/createdbyInfoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Carrefour Orhideea"
+        android:layout_below="@+id/createdbyTV"
+        android:layout_toRightOf="@+id/stickerIV"
+        />
+
+    <Button
+        android:id="@+id/barcodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="#FFE15E4A"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Bar code"
+        android:layout_below="@+id/createdbyInfoTV"
+        android:layout_toRightOf="@+id/stickerIV"
+        />
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/layout/sticker_collected.xml -->

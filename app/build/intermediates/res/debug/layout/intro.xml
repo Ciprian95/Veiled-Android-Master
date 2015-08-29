@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_screenbg"
+    android:id="@+id/containerLayout">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_veiled"
+            android:id="@+id/logoImageView"
+            />
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profilePictureIntro"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        facebook:preset_size="normal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_above="@id/profilePictureIntro"
+        android:textSize="18sp"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_buttonIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        facebook:login_text="Facebook log in required !"
+        facebook:logout_text="You have logged out !"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profilePictureIntro"
+        facebook:confirm_logout="false"
+        />
+
+
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/layout/intro.xml -->

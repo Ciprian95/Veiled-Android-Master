@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stickerArchivedNameTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:text="My sticker" />
+
+    <TextView
+        android:id="@+id/stickerArchivedDetailsTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="My sticker details"
+        android:layout_below="@+id/stickerArchivedNameTV"
+        android:layout_marginLeft="35dp"
+        />
+
+    <ImageView
+        android:id="@+id/stickerArchivedIV"
+        android:layout_gravity="center"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/cupcake"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/stickerArchivedDetailsTV"/>
+
+    <TextView
+        android:id="@+id/pickedfromArchivedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FFE15E4A"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Picked from:"
+        android:layout_below="@+id/stickerArchivedDetailsTV"
+        android:layout_toRightOf="@+id/stickerArchivedIV"
+        />
+
+    <TextView
+        android:id="@+id/pickedfromInfoArchivedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Piata Unirii, Bucharest"
+        android:layout_below="@+id/pickedfromArchivedTV"
+        android:layout_toRightOf="@+id/stickerArchivedIV"
+        />
+
+
+    <TextView
+        android:id="@+id/createdbyArchivedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FFE15E4A"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Created by:"
+        android:layout_below="@+id/pickedfromInfoArchivedTV"
+        android:layout_toRightOf="@+id/stickerArchivedIV"
+        />
+
+    <TextView
+        android:id="@+id/createdbyArchivedInfoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:text="Carrefour Orhideea"
+        android:layout_below="@+id/createdbyArchivedTV"
+        android:layout_toRightOf="@+id/stickerArchivedIV"
+        />
+
+</RelativeLayout><!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/layout/sticker_archived.xml -->

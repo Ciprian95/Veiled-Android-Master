@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DF5B46"
+    android:id="@+id/dialogLayoutnointernet">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#142031">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/internet"
+            android:id="@+id/internetPic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/internetDialogText"
+            android:layout_toRightOf="@+id/internetPic"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="No internet connection"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/internetDialogDetailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Please turn on your internet connection in order to continue"/>
+    <Button
+        android:id="@+id/acceptInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#142031"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Ok"/>
+</RelativeLayout><!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/layout/dialoglayoutnointernet.xml -->
