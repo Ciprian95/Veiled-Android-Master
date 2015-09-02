@@ -80,11 +80,11 @@ public class PreferencesManipulation {
             }
         }
         catch (FileNotFoundException e) {
-            userPrefs = new int[]{1,1,0,0,0,0,0,0,0,0};  //empty array -- no pref selected
+            userPrefs = new int[]{1,1,1,1,1,1,1,1,1,1};  //empty array -- no pref selected
             enrolled_user.setPreferences(userPrefs);
         }
         catch (IOException e) {
-            userPrefs = new int[]{1,1,0,0,0,0,0,0,0,0};  //empty array -- no pref selected
+            userPrefs = new int[]{1,1,1,1,1,1,1,1,1,1};  //empty array -- no pref selected
             enrolled_user.setPreferences(userPrefs);
         }
     }
@@ -93,7 +93,7 @@ public class PreferencesManipulation {
         String mask = "";
 
         if(userPrefs == null){
-            userPrefs = new int[]{1,1,0,0,0,0,0,0,0,0};  //empty array -- no pref selected
+            userPrefs = new int[]{1,1,1,1,1,1,1,1,1,1};  //empty array -- no pref selected
             enrolled_user.setPreferences(userPrefs);
         }
 
@@ -104,7 +104,7 @@ public class PreferencesManipulation {
 
     public static void changeCurrentPreference(int pref_index, int value){
         if(userPrefs == null){
-            userPrefs = new int[]{1,1,0,0,0,0,0,0,0,0};  //empty array -- no pref selected
+            userPrefs = new int[]{1,1,1,1,1,1,1,1,1,1};  //empty array -- no pref selected
         }
 
         userPrefs[pref_index] = value;
