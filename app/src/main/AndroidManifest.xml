@@ -60,6 +60,14 @@
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity
+            android:name=".Activities.NewMenu"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <activity
             android:name=".Activities.CollectedActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -80,15 +88,15 @@
         <activity
             android:name=".Activities.InviteFriend"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         </activity>
 
         <activity
             android:name=".Activities.HelpActivity"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         </activity>
 
         <activity
@@ -123,15 +131,15 @@
         <activity
             android:name=".Activities.AearialFinder"
             android:label="@string/title_activity_aearial_finder"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         </activity>
 
         <activity
             android:name=".Activities.Old.MessageViewer"
             android:label="@string/title_activity_aearial_finder"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         </activity>
 
 

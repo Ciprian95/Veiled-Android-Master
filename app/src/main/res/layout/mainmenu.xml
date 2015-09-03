@@ -7,250 +7,250 @@
     <!-- The main content view -->
     <FrameLayout
             android:id="@+id/content_frame"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent" >
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
+        android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:orientation="vertical"
              >
 
         <RelativeLayout
+                android:id="@+id/centerLogoLayout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/black"
-                android:id="@+id/centerLogoLayout"
                >
 
-            <ImageView android:layout_width="match_parent"
+            <ImageView android:id="@+id/headerIV"
+                       android:layout_width="match_parent"
                        android:layout_height="wrap_content"
-                       android:id="@+id/headerIV"
                        android:background="@drawable/header_soon"/>
 
 
-            <ImageView android:layout_width="match_parent"
+            <ImageView android:id="@+id/headerLogoIV"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/headerLogoIV"
                 android:layout_centerHorizontal="true"
                 android:background="@drawable/logo_header"/>
 
             <RelativeLayout
+                android:id="@+id/headerMenu"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:id="@+id/headerMenu">
+                android:layout_marginTop="10dp">
 
-                <ImageButton android:layout_width="wrap_content"
+                <ImageButton android:id="@+id/showPanel"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical = "true"
-                    android:background="@drawable/ic_drawer"
                     android:layout_marginLeft="20dp"
-                    android:id="@+id/showPanel"
+                    android:background="@drawable/ic_drawer"
                     />
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="VEILED  -  Get your discount !"
-                    android:textColor="#FFFFFF"
+                    android:layout_centerInParent="true"
                     android:layout_marginLeft="40px"
                     android:layout_toRightOf="@+id/showPanel"
                     android:gravity="center|left"
-                    android:layout_centerInParent="true"
+                    android:text="VEILED  -  Get your discount !"
+                    android:textColor="#FFFFFF"
                     />
             </RelativeLayout>
         </RelativeLayout>
 
         <LinearLayout
+                android:id="@+id/categoryNamesLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/centerLogoLayout"
                 android:background="@android:color/black"
-                android:id="@+id/categoryNamesLayout"
-                android:orientation="horizontal"
-                android:layout_below="@+id/centerLogoLayout">
-            <TextView android:layout_width="wrap_content"
+                android:orientation="horizontal">
+            <TextView android:id="@+id/categNameAccesCamera"
+                      android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="Find offers :"
-                      android:id="@+id/categNameAccesCamera"
-                      android:textSize="15sp"
                       android:gravity="center"
-                      />
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="Choose categories :"
+                      android:text="Find offers :"
                       android:textSize="15sp"
-                      android:id="@+id/categNameChooseCategs"
-                      android:gravity="center"/>
+                      />
+            <TextView android:id="@+id/categNameChooseCategs"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:text="Choose categories :"
+                      android:textSize="15sp"/>
         </LinearLayout>
 
         <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/scrollViewCategs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:color/black"
-            android:layout_below="@+id/categoryNamesLayout">
+            android:layout_below="@+id/categoryNamesLayout"
+            android:background="@android:color/black">
 
             <!-- FOR ZOOM CAPABILITY <com.Veiled.Activities.ZoomActivity.ZoomRelativeLayout -->
             <RelativeLayout
+                android:id="@+id/categContainerLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/categContainerLayout"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                >
 
             <RelativeLayout
+                android:id="@+id/accessCameraImageButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:id="@+id/accessCameraImageButton">
-                <ImageButton android:layout_width="wrap_content"
+                android:layout_marginTop="5dp">
+                <ImageButton android:id="@+id/accessCameraImageButtonInside"
+                             android:layout_width="wrap_content"
                              android:layout_height="wrap_content"
                              android:background="@drawable/icon1"
-                             android:id="@+id/accessCameraImageButtonInside"
                 />
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/categFood"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/categFood"
-                android:layout_toRightOf="@+id/accessCameraImageButton"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp">
-                    <ImageButton android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/accessCameraImageButton">
+                    <ImageButton android:id="@+id/categFoodIB"
+                                 android:layout_width="wrap_content"
                                  android:layout_height="wrap_content"
                                  android:background="@drawable/icon2"
-                                 android:id="@+id/categFoodIB"
                          />
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/categDrinks"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/categFood"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-               android:id="@+id/categDrinks">
-            <ImageButton android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+               android:layout_toRightOf="@+id/categFood">
+            <ImageButton android:id="@+id/categDrinksIB"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@drawable/icon3"
-                         android:id="@+id/categDrinksIB"
                         />
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/categGames"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/accessCameraImageButton"
                 android:layout_below="@+id/categFood"
-                android:id="@+id/categGames"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp">
-            <ImageButton android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/accessCameraImageButton">
+            <ImageButton android:id="@+id/categGamesIB"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@drawable/icon4"
-                         android:id="@+id/categGamesIB"
                          />
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/categElectronics"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/categGames"
                 android:layout_below="@+id/categDrinks"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:id="@+id/categElectronics">
-            <ImageButton android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categGames">
+            <ImageButton android:id="@+id/categElectronicsIB"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@drawable/icon5"
-                         android:id="@+id/categElectronicsIB"
                          />
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/categCinema"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:layout_below="@+id/accessCameraImageButton"
-                android:id="@+id/categCinema">
-            <ImageButton android:layout_width="wrap_content"
+                android:layout_marginTop="5dp">
+            <ImageButton android:id="@+id/categCinemaIB"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@drawable/icon6"
-                         android:id="@+id/categCinemaIB"
                          />
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/categTheatre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_toRightOf="@+id/categCinema"
                 android:layout_below="@+id/accessCameraImageButton"
-                android:id="@+id/categTheatre">
-                    <ImageButton android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categCinema">
+                    <ImageButton android:id="@+id/categTheatreIB"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@drawable/icon7"
-                         android:id="@+id/categTheatreIB"
                          />
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/categTravel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_toRightOf="@+id/categTheatre"
                 android:layout_below="@+id/accessCameraImageButton"
-                android:id="@+id/categTravel">
-                    <ImageButton android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categTheatre">
+                    <ImageButton android:id="@+id/categTravelIB"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@drawable/icon8"
-                         android:id="@+id/categTravelIB"
                         />
             </RelativeLayout>
 
              <RelativeLayout
+                android:id="@+id/categFashion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_toRightOf="@+id/categTravel"
                 android:layout_below="@+id/accessCameraImageButton"
-                android:id="@+id/categFashion">
-                <ImageButton android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categTravel">
+                <ImageButton android:id="@+id/categFashionIB"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/icon9"
-                    android:id="@+id/categFashionIB"
                     />
             </RelativeLayout>
 
             <RelativeLayout
+                    android:id="@+id/categCulture"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
                     android:layout_below="@+id/categCinema"
-                    android:id="@+id/categCulture">
-                    <ImageButton android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <ImageButton android:id="@+id/categCultureIB"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/icon10"
-                        android:id="@+id/categCultureIB"
                         />
                 </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/categCoffee"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
                 android:layout_below="@+id/categTheatre"
-                android:layout_toRightOf="@+id/categCulture"
-                android:id="@+id/categCoffee">
-                <ImageButton android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categCulture">
+                <ImageButton android:id="@+id/categCoffeeIB"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/icon11"
-                    android:id="@+id/categCoffeeIB"
                     />
             </RelativeLayout>
 

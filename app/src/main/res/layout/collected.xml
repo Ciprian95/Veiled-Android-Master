@@ -5,99 +5,99 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="5dp"
-    android:background="#142031"
+    android:background="#46b39e"
 >
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#142031"
+    android:background="#46b39e"
     >
 
     <RelativeLayout
+        android:id="@+id/headerCollected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/headerCollected"
         android:layout_marginBottom="10dp">
         <ImageView
+            android:id="@+id/backButtonCol"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_action_back"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="20dp"
-            android:id="@+id/backButtonCol"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_action_back"
             />
 
         <ImageView
+            android:id="@+id/collectedIconIV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/collected_pink"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@+id/backButtonCol"
-            android:id="@+id/collectedIconIV"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/backButtonCol"
+            android:background="@drawable/collected_pink"
             />
 
         <TextView
+            android:id="@+id/collectedTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Collected"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:id="@+id/collectedTV"
-            android:textSize="20sp"
-            android:layout_toRightOf="@+id/collectedIconIV"
-            android:textAlignment="center"
-            android:gravity="center"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/collectedIconIV"
+            android:gravity="center"
+            android:text="Collected"
+            android:textAlignment="center"
+            android:textSize="20sp"
             />
 
         <Button
+            android:id="@+id/cancelCollected"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel All collected"
-            android:id="@+id/cancelCollected"
-            android:textColor="#FFFFFF"
-            android:background="#FFE15E4A"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
+            android:background="#FFE15E4A"
+            android:text="Cancel All collected"
+            android:textColor="#FFFFFF"
             />
 
     </RelativeLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_below="@+id/headerCollected"
+        android:id="@+id/emptyBlackLineCollectedLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/emptyBlackLineCollectedLayout"
+        android:layout_below="@+id/headerCollected"
         android:background="#000000"
+        android:orientation="horizontal"
         >
     </LinearLayout>
 
     <RelativeLayout
+        android:id="@+id/stickersContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:id="@+id/stickersContainer"
-        android:layout_below="@+id/emptyBlackLineCollectedLayout">
+        android:layout_below="@+id/emptyBlackLineCollectedLayout"
+        android:background="@android:color/transparent">
 
         <TextView
+            android:id="@+id/noStickersTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/noStickersTV"
-            android:textSize="25sp"
+            android:gravity="center"
             android:text="You have no stickers yet Ciprian!"
             android:textAlignment="center"
-            android:gravity="center"
+            android:textSize="25sp"
             android:visibility="invisible"
             />
         <ImageView
+            android:id="@+id/noStickersIV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/noStickersIV"
             android:layout_alignParentBottom="true"
             android:background="@drawable/what"
             android:visibility="gone"/>

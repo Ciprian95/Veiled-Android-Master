@@ -61,6 +61,10 @@ import java.util.Arrays;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class IntroActivity extends Activity {
+    public static GeofenceRequester mGeofenceRequester;
+    private final String PENDING_ACTION_BUNDLE_KEY =
+            "com.Veiled.Activities.IntroActivity:PendingAction";
+    final private Context m_context = this;
     /**
      * Called when the activity is first created.
      */
@@ -69,27 +73,15 @@ public class IntroActivity extends Activity {
     private CallbackManager callbackManager;
     private ProfilePictureView profilePictureView;
     private TextView greeting;
-    private final String PENDING_ACTION_BUNDLE_KEY =
-            "com.Veiled.Activities.IntroActivity:PendingAction";
     private PendingAction pendingAction = PendingAction.NONE;
-    private enum PendingAction {
-        NONE
-    }
     private ProfileTracker profileTracker;
-
-
     private IScreenDetails screenDetails;
     private IConnectionChecker connectionChecker;
     private IRememberer rememberer;
-
     private UserCredentials credentials;
-
     private int screen_width;
     private int screen_height;
 
-    final private Context m_context = this;
-
-    public static GeofenceRequester mGeofenceRequester;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -178,7 +170,7 @@ public class IntroActivity extends Activity {
 
                 //SyncUtils.TriggerUnrefresh();
 
-                Intent goToNextActivity = new Intent(getApplicationContext(), MainMenuActivity.class);
+                Intent goToNextActivity = new Intent(getApplicationContext(), NewMenu.class);
                 startActivity(goToNextActivity);
                 finish();
             }
@@ -379,5 +371,9 @@ public class IntroActivity extends Activity {
         });
 
         dialog.show();
+    }
+
+    private enum PendingAction {
+        NONE
     }
 }
