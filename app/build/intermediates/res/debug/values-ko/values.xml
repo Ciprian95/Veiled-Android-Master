@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values-ko/auth_strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values-ko/auth_strings.xml -->
     <eat-comment/>
     <string msgid="3983201110833868073" name="auth_client_needs_enabling_title">"Google Play 서비스를 사용하도록 설정해야 하는 애플리케이션입니다."</string>
     <string msgid="7999585836145154206" name="auth_client_needs_installation_title">"Google Play 서비스를 설치해야 하는 애플리케이션입니다."</string>
@@ -8,7 +8,7 @@
     <string msgid="3635065018897986478" name="auth_client_play_services_err_notification_msg">"Google Play 서비스 오류"</string>
     <string msgid="6304135633531965756" name="auth_client_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 요청"</string>
     <string msgid="2534454398764507874" name="auth_client_using_bad_version_title">"애플리케이션에서 잘못된 버전의 Google Play 서비스를 사용하려고 했습니다."</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values-ko/common_strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values-ko/common_strings.xml -->
     <eat-comment/>
     <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play 서비스 사용"</string>
     <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Google Play 서비스를 사용하도록 설정해야 이 앱이 작동합니다."</string>
@@ -35,7 +35,7 @@
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play 서비스 업데이트"</string>
     <string msgid="9071884888741449141" name="common_signin_button_text">"로그인"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ko/values.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ko/values.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">보내기</string>
 </resources>

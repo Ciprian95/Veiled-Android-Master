@@ -2,165 +2,165 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\14.0.1\69e12f4c6aeac392555f1ea86fab82b5e5e31ad4\guava-14.0.1.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\guava-14.0.1-304711e36ad31f03145aff0110f0796196cd4cb9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.1\2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd\httpcore-4.2.1.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\httpcore-4.2.1-86932eb4b1721a59d40a4c3b849c832a9d3ae5d7.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\libs\mobileservices\mobileservices-1.1.5.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="12188408c45b88124cb38dd2bedc9b314b5f554b">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\mobileservices-1.1.5-a6d309ae8cf79abbaf7e963c7d0e30faa9125612.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\classes-134f42f2e88ba9fddc3ac70086b44b73d79c3663.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\commons-collections\commons-collections\3.2.1\761ea405b9b37ced573d2df0d1e3a4e0f9edc668\commons-collections-3.2.1.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="761ea405b9b37ced573d2df0d1e3a4e0f9edc668">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\commons-collections-3.2.1-b8b4bc05ddb78cff36c4a65c7f8a0c2f4af8c022.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\1.0\9b473564e792c2bdf1449da1f0b1b5bff9805704\objenesis-1.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="9b473564e792c2bdf1449da1f0b1b5bff9805704">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\objenesis-1.0-d9e5f4f57019255be1da72d2d223e5aa6fdba3a6.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.6\b7f0fc8f61ecadeb3695f0b9464755eee44374d4\commons-codec-1.6.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\commons-codec-1.6-474484e99f0a449bdc2790216b849772c627f6cc.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-bc9b94081c54bd16055df0758b636e1de1670c2e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-621f64841da4f9c68a5cf94ceb6c5190e8b85e1c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\com.cloudinary\cloudinary\1.0.2\95701adf3351b8d9bb6877e59472b1e32c752372\cloudinary-1.0.2.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="95701adf3351b8d9bb6877e59472b1e32c752372">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\cloudinary-1.0.2-8365521b3dd3cbd9ac1a5da0a885d17ede7e4c5e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-3c487f65e48e3dced0542282274280db1fb5c73a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\classes-be7dabb0027aa84c2b475600a449d119a604636a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\com.googlecode.json-simple\json-simple\1.1.1\c9ad4a0850ab676c5c64461a05ca524cdfff59f1\json-simple-1.1.1.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="c9ad4a0850ab676c5c64461a05ca524cdfff59f1">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\json-simple-1.1.1-b2b81dfcd9384b9e5b44f011f7ff0bb3e004c451.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\1.9.5\c3264abeea62c4d2f367e21484fbb40c7e256393\mockito-core-1.9.5.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="c3264abeea62c4d2f367e21484fbb40c7e256393">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\mockito-core-1.9.5-527428d9d53fed5431236df827cd506072f53ad2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\commons-lang\commons-lang\2.6\ce1edb914c94ebc388f086c6827e8bdeec71ac2\commons-lang-2.6.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-fee4cbc8d6910aa880efb82d2804bf928f7b9e9a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\junit-4.12-e05f3ef2ba0107d98035499f6c77d1a29975b590.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\classes-9749c9abcfaf769d8ac461ff0c72517d2ddef5c7.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\libs\mobileservices\mobileservices-1.1.5-javadoc.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="3b8efb4aebbdf06530dc05ac727d220be5d6a0db">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\mobileservices-1.1.5-javadoc-3fba656a724ea219c1a2ea40b1f96fee269ded9c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\libs\mobileservices\mobileservices-1.1.5-sources.jar"
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\libs\mobileservices\mobileservices-1.1.5-sources.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="03d90579555ed2d2f98334a966f6e72d93dc51fc">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\mobileservices-1.1.5-sources-27fc1d9fc57e4fe6e5443533467e728cb6e80067.jar" />
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\mobileservices-1.1.5-sources-65a7413a12e092538c9472f382a4be948bb3331c.jar" />
     </item>
     <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\libs\mobileservices\gson-2.2.2.jar"
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\com.cloudinary\cloudinary\1.0.2\95701adf3351b8d9bb6877e59472b1e32c752372\cloudinary-1.0.2.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\gson-2.2.2-3dcf1d9d3378281b09060a246cd7e8dfea090236.jar" />
+        sha1="95701adf3351b8d9bb6877e59472b1e32c752372">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\cloudinary-1.0.2-49ea08c988ee49c8c5e8e64f401d55c2fd820b7c.jar" />
     </item>
     <item
-        jar="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.4.52\classes.jar"
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\libs\mobileservices\mobileservices-1.1.5.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\classes-11f44eec5a4825d36613fc8bbc44ab3249cd3410.jar" />
+        sha1="12188408c45b88124cb38dd2bedc9b314b5f554b">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\mobileservices-1.1.5-e9aabbbe6e72dd1461e75793e50ca43359dd5fad.jar" />
     </item>
     <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\commons-lang\commons-lang\2.6\ce1edb914c94ebc388f086c6827e8bdeec71ac2\commons-lang-2.6.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3-0d31a03e3778997d67b72ff5bcb07828b166ebf2.jar" />
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-24781a3f4e2009a20beb66ad246710dcf0030a44.jar" />
     </item>
     <item
-        jar="C:\Users\Cipi\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.1\7c772bace9aa31a728c39a88c6ff66a7cd177e89\httpmime-4.2.1.jar"
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\classes-4c30b31548d065040853005d38f107b81ea06007.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-fa3f307bfd5be63460eb068ec943768a37095952.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\1.0\9b473564e792c2bdf1449da1f0b1b5bff9805704\objenesis-1.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="9b473564e792c2bdf1449da1f0b1b5bff9805704">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\objenesis-1.0-0119f67aa674301cbcfe6d50f4ef26e976f853cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\libs\mobileservices\mobileservices-1.1.5-javadoc.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="3b8efb4aebbdf06530dc05ac727d220be5d6a0db">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\mobileservices-1.1.5-javadoc-fc0b619faff8d875190cc667415a7b97097faa68.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.1\7c772bace9aa31a728c39a88c6ff66a7cd177e89\httpmime-4.2.1.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="7c772bace9aa31a728c39a88c6ff66a7cd177e89">
-        <dex dex="C:\Users\Cipi\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\httpmime-4.2.1-31db0b3776f56777de6d44a2a6b89e7a18fa6e20.jar" />
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\httpmime-4.2.1-a1e0db9d5c0dc1a136645e58e389b440aa66bdab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3-aa4217ce0c3991535ef9cb9464ff75658e2bec35.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\14.0.1\69e12f4c6aeac392555f1ea86fab82b5e5e31ad4\guava-14.0.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\guava-14.0.1-2f1929f2de081c62859cb3e38b7529ac9893a9bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\com.googlecode.json-simple\json-simple\1.1.1\c9ad4a0850ab676c5c64461a05ca524cdfff59f1\json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c9ad4a0850ab676c5c64461a05ca524cdfff59f1">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\json-simple-1.1.1-5716d1fe7532760f7be52f7b30128090b33c94fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-a317fef9326111560d3b3e8b1141b0467e92d0e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\commons-collections\commons-collections\3.2.1\761ea405b9b37ced573d2df0d1e3a4e0f9edc668\commons-collections-3.2.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="761ea405b9b37ced573d2df0d1e3a4e0f9edc668">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\commons-collections-3.2.1-a909190596fa155b706014323e832cb882c2410c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\classes-e9f799fc7db59d746e21606518cf7ec7cc671e67.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.1\2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd\httpcore-4.2.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\httpcore-4.2.1-126796fc06e360864c15de6a52b8ce928301940a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\libs\mobileservices\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\gson-2.2.2-44dc7bc0e54b592dd09c5069d64f3d9aca152295.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\junit-4.12-a7bdce8d74e264d70965680b70c79fdde1794351.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\1.9.5\c3264abeea62c4d2f367e21484fbb40c7e256393\mockito-core-1.9.5.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c3264abeea62c4d2f367e21484fbb40c7e256393">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\mockito-core-1.9.5-0a837631d7a4ee3f867fae5808546887b1ba87ec.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.4.52\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\classes-3874917614f3ab079ef6a84c858366aced2073b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-e912425760c0d24b2e1162a41f3f5388db23dc61.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\classes-513204d9e8bc7d53ecf91d837c7abbe2c9f6b1da.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ciprian\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.6\b7f0fc8f61ecadeb3695f0b9464755eee44374d4\commons-codec-1.6.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="C:\Users\Ciprian\AndroidStudioProjects\Veiled-Android-Master\app\build\intermediates\pre-dexed\debug\commons-codec-1.6-8f16a05c3307bc3be5f17f6236e68a139873e5f1.jar" />
     </item>
 
 </items>

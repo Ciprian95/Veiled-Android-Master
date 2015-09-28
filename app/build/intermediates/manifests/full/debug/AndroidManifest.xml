@@ -65,32 +65,52 @@
         <activity
             android:name="com.Veiled.Activities.CollectedActivity"
             android:label="@string/app_name"
+            android:parentActivityName="com.Veiled.Activities.NewMenu"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Veiled.Activities.NewMenu" />
         </activity>
         <activity
             android:name="com.Veiled.Activities.ArchivedActivity"
             android:label="@string/app_name"
+            android:parentActivityName="com.Veiled.Activities.NewMenu"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Veiled.Activities.NewMenu" />
         </activity>
         <activity
             android:name="com.Veiled.Activities.SettingsActivity"
             android:label="@string/app_name"
+            android:parentActivityName="com.Veiled.Activities.NewMenu"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Veiled.Activities.NewMenu" />
         </activity>
         <activity
             android:name="com.Veiled.Activities.InviteFriend"
             android:label="@string/app_name"
+            android:parentActivityName="com.Veiled.Activities.NewMenu"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Veiled.Activities.NewMenu" />
         </activity>
         <activity
             android:name="com.Veiled.Activities.HelpActivity"
             android:label="@string/app_name"
+            android:parentActivityName="com.Veiled.Activities.NewMenu"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Veiled.Activities.NewMenu" />
         </activity>
         <activity
             android:name="com.Veiled.Activities.Old.Facebook.LogInFragmentActivity"
@@ -197,6 +217,16 @@
                 android:name="android.accounts.AccountAuthenticator"
                 android:resource="@xml/authenticator" />
         </service>
+
+        <activity
+            android:name="com.Veiled.Activities.PreferencesActivity"
+            android:label="@string/title_activity_preferences"
+            android:parentActivityName="com.Veiled.Activities.NewMenu"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.Veiled.Activities.NewMenu" />
+        </activity>
     </application>
 
 </manifest>

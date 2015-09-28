@@ -10,7 +10,7 @@
     <string name="error">Error</string>
     <string name="success">Success</string>
     <string name="successfully_posted_post">Post ID: %1$s</string>
-    <string name="hello_user">Welcome to Veiled, %1$s!</string>
+    <string name="hello_user">Bun venit in Veiled, %1$s!</string>
     <string name="ok">OK</string>
     <string name="cancelled">Cancelled</string>
     <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
@@ -38,19 +38,14 @@
 
     </string-array>
 
-    <string name="help_mainscreen">When you are notified, you must look around you for our cool stickers.\n\n
-Tap the Big Camera Button on the Main Screen to do just that.\n\n
-We don’t want to spam you, so if you are not interested in one of our products categories, you can unselect them.</string>
-    <string name="help_settings">In the   <b>Settings</b>  section you can set the time when you want to be notified, week days or weekend, also the hours.\n\n
-Here, you can <b>log out</b> from Facebook.</string>
-    <string name="help_howtocollect">If you found a sticker searching with the camera, you need to feed our little hungry cameleon with the item, in order to collect it.</string>
-    <string name="help_wherecanisee">In the Side Menu, in the <b>Collected</b>  section, you can see all the stickers that you found and details about them.\n\n
-Here, also you can view the <b>Bar Code</b>, show it to the store and then get the discount.\n\n
-In the <b>Archived</b>  section you can see the history of your achivements: all the stickers you have collected since you firs installed the app.\n\n
-<b>Attention!</b> Each discount is only available until the expiration date showed in the Collected section!</string>
-    <string name="help_share">To help us grow and provide
-cooler offers for you, share our app with a friend from
- <b>Invite a friend</b> section.</string>
+    <string name="help_mainscreen">Cand sunteti notificat,trebuie sa va uitati in jurul dvs dupa stickerele noastre.\n\nTot ce aveti de facut este sa apasati pe butonul de camera din ecranul principal.\n\nNoi nu dorim sa va deranjam, deci daca nu va intereseaza o categorie puteti sa o deselectati din sectiunea <b>Preferinte</b>, prezenta in Meniul Lateral. </string>
+    <string name="help_settings">In sectiunea <b>Setari</b> va puteti seta zilele in care puteti fi notificati, Luni-Vineri sau Weekend, dar si orele in care sunteti disponibil.\n\n
+Aici puteti da <b>log out</b> din Facebook.</string>
+    <string name="help_howtocollect">Daca ati gasit un sticker cautand cu camera, tot ce trebuie sa faceti este sa hraniti cameleonul nostru infometat iar campania va fi colectata.</string>
+    <string name="help_wherecanisee">In Meniul Lateral, in sectiunea <b>Colectate</b>, puteti vedea toate stickerele pe care le-ati gasit si colectat si detalii despre ele.\n\nAici, puteti de asemenea vedea si <b>Bar Code</b>,care trebuie aratat magazinului pentru a beneficia de oferta.\n\nIn sectiunea <b>Arhiva</b>, puteti vedea istoria activitatii dvs: toate stickerele colectate de dvs de cand ati instalat pentru prima oara aplicatia.\n\n
+<b>Attention!</b> Fiecare oferta e valabila numai pana la data expirarii acesteia, detaliu prezent in secitunea Colectate!</string>
+    <string name="help_share">Pentru a ne ajuta sa crestem si sa fim capabili de a oferi promotii din ce in ce mai bune, va puteti invita si prietenii sa isi instaleze aplicatia intrand
+        in sectiunea <b>Invita un prieten</b></string>
 
 
     <string name="hello_world">Hello world!</string>
@@ -143,4 +138,6 @@ cooler offers for you, share our app with a friend from
     <!-- Number patterns -->
     <string name="lat_lng_pattern">* ###.00000000;* -###.00000000</string>
     <string name="radius_pattern">* #.0000</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="title_activity_new_menu">NewMenu</string>
 </resources>

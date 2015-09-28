@@ -36,11 +36,9 @@ import com.facebook.login.widget.LoginButton;
  */
 public class SettingsActivity  extends Activity {
 
-    private int weekDaysSH, weekDaysEH, weekEndsSH, weekEndsEH;
-
-
     // Sync campaigns
     public static GeofenceRequester mGeofenceRequester;
+    private int weekDaysSH, weekDaysEH, weekEndsSH, weekEndsEH;
     private SettingsActivity.GeofenceSampleReceiver mBroadcastReceiver;
 
 
@@ -274,7 +272,7 @@ public class SettingsActivity  extends Activity {
     @Override
     public void onBackPressed() {
         finish();
-        Intent setIntent = new Intent(getApplicationContext(), MainMenuActivity.class);
+        Intent setIntent = new Intent(getApplicationContext(), NewMenu.class);
         setIntent.addCategory(Intent.CATEGORY_HOME);
         setIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(setIntent);

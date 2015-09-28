@@ -2,4 +2,4 @@
 <cycleInterpolator xmlns:android="http://schemas.android.com/apk/res/android"
     android:cycles="7"
     android:layout_height="wrap_content"
-    android:layout_width="wrap_content"/><!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/anim/cycle_7.xml -->
+    android:layout_width="wrap_content"/><!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/anim/cycle_7.xml -->

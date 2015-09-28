@@ -35,10 +35,9 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class CollectedActivity extends Activity{
-    private CollectedStickers mcollected = new CollectedStickers();
-
     ListView lv;
     Context context;
+    private CollectedStickers mcollected = new CollectedStickers();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -151,7 +150,7 @@ public class CollectedActivity extends Activity{
     @Override
     public void onBackPressed() {
         finish();
-        Intent setIntent = new Intent(getApplicationContext(), MainMenuActivity.class);
+        Intent setIntent = new Intent(getApplicationContext(), NewMenu.class);
         setIntent.addCategory(Intent.CATEGORY_HOME);
         setIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(setIntent);

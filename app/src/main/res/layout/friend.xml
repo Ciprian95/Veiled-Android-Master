@@ -42,7 +42,7 @@
             android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/friendsIconIV"
             android:gravity="center"
-            android:text="Invite a friend"
+            android:text="Invita un prieten"
             android:textAlignment="center"
             android:textSize="25sp"
             />
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Show this QR Code to your friends to share this great experience"
+            android:text="Arata prietenilor acest cod QR pentru a imparti cu ei o experienta uimitoare"
             android:textSize="20sp"
             />
 

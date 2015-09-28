@@ -49,7 +49,7 @@
             android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/collectedIconIV"
             android:gravity="center"
-            android:text="Collected"
+            android:text="Colectate"
             android:textAlignment="center"
             android:textSize="20sp"
             />
@@ -61,7 +61,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:background="#FFE15E4A"
-            android:text="Cancel All collected"
+            android:text="Anuleaza tot"
             android:textColor="#FFFFFF"
             />
 
@@ -89,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="You have no stickers yet Ciprian!"
+            android:text="Nu ai niciun sticker colectat!"
             android:textAlignment="center"
             android:textSize="25sp"
             android:visibility="invisible"

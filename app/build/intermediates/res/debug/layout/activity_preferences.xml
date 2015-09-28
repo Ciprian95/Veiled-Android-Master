@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#46b39e"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#46b39e"
+        >
+
+        <RelativeLayout
+            android:id="@+id/headerPref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:id="@+id/backButtonPref"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_action_back"
+                />
+
+            <ImageView
+                android:id="@+id/archivedIconIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/backButtonPref"
+                android:background="@drawable/settings"
+                />
+
+            <TextView
+                android:id="@+id/archivedTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/archivedIconIV"
+                android:gravity="center"
+                android:text="Preferinte"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/categContainerLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="100dp"
+            >
+            <RelativeLayout
+                android:id="@+id/categFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp">
+                <ImageButton android:id="@+id/categFoodIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon2"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/categDrinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categFood">
+                <ImageButton android:id="@+id/categDrinksIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon3"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/categGames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categDrinks">
+                <ImageButton android:id="@+id/categGamesIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon4"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/categElectronics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/categFood"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp">
+                <ImageButton android:id="@+id/categElectronicsIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon5"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/categCinema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/categDrinks"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categElectronics">
+                <ImageButton android:id="@+id/categCinemaIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon6"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/categTheatre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/categGames"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categCinema">
+                <ImageButton android:id="@+id/categTheatreIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon7"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/categTravel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/categElectronics"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp">
+                <ImageButton android:id="@+id/categTravelIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon8"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/categFashion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/categCinema"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/categTravel">
+                <ImageButton android:id="@+id/categFashionIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon9"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/categCulture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/categCoffee"
+                android:layout_marginTop="5dp">
+                <ImageButton android:id="@+id/categCultureIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon10"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+              android:id="@+id/categCoffee"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/categTheatre"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="5dp"
+              android:layout_toRightOf="@+id/categFashion">
+              <ImageButton android:id="@+id/categCoffeeIB"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/icon11"
+                  />
+          </RelativeLayout>
+
+                        <!--/com.Veiled.Activities.ZoomActivity.ZoomRelativeLayout-->
+            -->
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/layout/activity_preferences.xml -->

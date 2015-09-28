@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="categ_details">
         <item>\n\t One cannot think well, love well, sleep well, if one has not dined well. \n\n\n\t\t\t\t\t\t  Virginia Woolf, A Room of One\'s Own</item>
@@ -22,10 +22,10 @@
         <item>Help</item>
         <item>Credits</item>
     </string-array>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="black_overlay">#66000000</color>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="com_facebook_blue">#3B5998</color>
     <color name="com_facebook_button_background_color">#415dae</color>
@@ -40,7 +40,7 @@
     <color name="com_facebook_likeboxcountview_text_color">#6a7180</color>
     <color name="com_facebook_likeview_text_color">#6a7180</color>
     <color name="com_facebook_share_button_text_color">#FFFFFF</color>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -52,7 +52,7 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -76,11 +76,11 @@
     <declare-styleable name="com_facebook_like_view"><attr format="color" name="foreground_color"/><attr format="string" name="object_id"/><attr name="object_type"><enum name="unknown" value="0"/><enum name="open_graph" value="1"/><enum name="page" value="2"/></attr><attr name="style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
     <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="confirm_logout"/><attr format="string" name="login_text"/><attr format="string" name="logout_text"/></declare-styleable>
     <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="is_cropped"/></declare-styleable>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
     <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
@@ -101,10 +101,10 @@
     <dimen name="com_facebook_share_button_padding_top">12dp</dimen>
     <dimen name="com_facebook_share_button_text_size">16.0sp</dimen>
     <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/version.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/version.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">4452000</integer>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="add_geofences_already_requested_error">
@@ -119,7 +119,7 @@
     <string name="app_id">1602786609935678</string>
     <string name="app_name">Veiled</string>
     <string name="cancelled">Cancelled</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -137,7 +137,7 @@
     <string name="com_facebook_send_button_text">Send</string>
     <string name="com_facebook_share_button_text">Share</string>
     <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml -->
     <eat-comment/>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
@@ -164,10 +164,10 @@
     <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="connected">Client connected</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/lib_strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/lib_strings.xml -->
     <eat-comment/>
     <string name="connection_error_code">Connection failure error code: %1$d</string>
     <string name="connection_error_disabled">Google Play services is disabled</string>
@@ -187,7 +187,7 @@
     <string name="connection_error_outdated">Google Play services is out of date</string>
     <string name="connection_error_sign_in_required">The user is not signed in</string>
     <string name="connection_error_unknown">An unknown error occurred</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="connection_failed">Connection failed</string>
     <string name="disconnected">Client disconnected</string>
@@ -215,21 +215,16 @@
         Geofence transition error. Invalid type %1$d in geofences %2$s
     </string>
     <string name="geofence_transition_unknown">Unknown transition</string>
-    <string name="hello_user">Welcome to Veiled, %1$s!</string>
+    <string name="hello_user">Bun venit in Veiled, %1$s!</string>
     <string name="hello_world">Hello world!</string>
-    <string name="help_howtocollect">If you found a sticker searching with the camera, you need to feed our little hungry cameleon with the item, in order to collect it.</string>
-    <string name="help_mainscreen">When you are notified, you must look around you for our cool stickers.\n\n
-Tap the Big Camera Button on the Main Screen to do just that.\n\n
-We don’t want to spam you, so if you are not interested in one of our products categories, you can unselect them.</string>
-    <string name="help_settings">In the   <b>Settings</b>  section you can set the time when you want to be notified, week days or weekend, also the hours.\n\n
-Here, you can <b>log out</b> from Facebook.</string>
-    <string name="help_share">To help us grow and provide
-cooler offers for you, share our app with a friend from
- <b>Invite a friend</b> section.</string>
-    <string name="help_wherecanisee">In the Side Menu, in the <b>Collected</b>  section, you can see all the stickers that you found and details about them.\n\n
-Here, also you can view the <b>Bar Code</b>, show it to the store and then get the discount.\n\n
-In the <b>Archived</b>  section you can see the history of your achivements: all the stickers you have collected since you firs installed the app.\n\n
-<b>Attention!</b> Each discount is only available until the expiration date showed in the Collected section!</string>
+    <string name="help_howtocollect">Daca ati gasit un sticker cautand cu camera, tot ce trebuie sa faceti este sa hraniti cameleonul nostru infometat iar campania va fi colectata.</string>
+    <string name="help_mainscreen">Cand sunteti notificat,trebuie sa va uitati in jurul dvs dupa stickerele noastre.\n\nTot ce aveti de facut este sa apasati pe butonul de camera din ecranul principal.\n\nNoi nu dorim sa va deranjam, deci daca nu va intereseaza o categorie puteti sa o deselectati din sectiunea <b>Preferinte</b>, prezenta in Meniul Lateral. </string>
+    <string name="help_settings">In sectiunea <b>Setari</b> va puteti seta zilele in care puteti fi notificati, Luni-Vineri sau Weekend, dar si orele in care sunteti disponibil.\n\n
+Aici puteti da <b>log out</b> din Facebook.</string>
+    <string name="help_share">Pentru a ne ajuta sa crestem si sa fim capabili de a oferi promotii din ce in ce mai bune, va puteti invita si prietenii sa isi instaleze aplicatia intrand
+        in sectiunea <b>Invita un prieten</b></string>
+    <string name="help_wherecanisee">In Meniul Lateral, in sectiunea <b>Colectate</b>, puteti vedea toate stickerele pe care le-ati gasit si colectat si detalii despre ele.\n\nAici, puteti de asemenea vedea si <b>Bar Code</b>,care trebuie aratat magazinului pentru a beneficia de oferta.\n\nIn sectiunea <b>Arhiva</b>, puteti vedea istoria activitatii dvs: toate stickerele colectate de dvs de cand ati instalat pentru prima oara aplicatia.\n\n
+<b>Attention!</b> Fiecare oferta e valabila numai pana la data expirarii acesteia, detaliu prezent in secitunea Colectate!</string>
     <string name="invalid_action">Invalid action received. See error log for details.</string>
     <string name="invalid_action_detail">Invalid action %1$s received.</string>
     <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
@@ -246,10 +241,10 @@ In the <b>Archived</b>  section you can see the history of your achivements: all
     <string name="menu_item_clear_geofence1">Clear geofence 1</string>
     <string name="menu_item_clear_geofence2">Clear geofence 2</string>
     <string name="menu_item_clear_geofence_history">Clear stored geofences</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">Send</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
     <string name="ok">OK</string>
@@ -278,6 +273,8 @@ In the <b>Archived</b>  section you can see the history of your achivements: all
     <string name="success">Success</string>
     <string name="successfully_posted_post">Post ID: %1$s</string>
     <string name="title_activity_aearial_finder">AearialFinder</string>
+    <string name="title_activity_new_menu">NewMenu</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
     <string name="transition_entered">entered</string>
     <string name="transition_exited">exited</string>
     <string name="transition_unknown">unknown</string>
@@ -288,17 +285,17 @@ In the <b>Archived</b>  section you can see the history of your achivements: all
     <string name="unregister_geofence">Remove geofences</string>
     <string name="unregister_geofence1">Remove geofence 1</string>
     <string name="unregister_geofence2">Remove geofence 2</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_strings.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_strings.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Light"/>
     <style name="DialogAnimation">
         <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
         <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
     </style>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="MessengerButton">
     <item name="android:clickable">true</item>
@@ -358,7 +355,7 @@ In the <b>Archived</b>  section you can see the history of your achivements: all
     <style name="MessengerButtonText.White.Small">
     <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
   </style>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_styles.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_styles.xml -->
     <eat-comment/>
     <style name="WalletFragmentDefaultButtonTextAppearance">
         <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
@@ -392,7 +389,7 @@ In the <b>Archived</b>  section you can see the history of your achivements: all
         <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
         <item name="maskedWalletDetailsLogoImageType">classic</item>
     </style>
-    <!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="com_facebook_button" parent="@android:style/Widget.Button">
         <item name="android:background">@drawable/com_facebook_button_background</item>

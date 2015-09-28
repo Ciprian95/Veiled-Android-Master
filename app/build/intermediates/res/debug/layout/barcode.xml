@@ -9,4 +9,4 @@
         android:layout_height="match_parent"
         android:id="@+id/barcodeIv"
         android:layout_centerInParent="true" />
-</RelativeLayout><!-- From: file:/C:/Users/Cipi/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/layout/barcode.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Ciprian/AndroidStudioProjects/Veiled-Android-Master/app/src/main/res/layout/barcode.xml -->

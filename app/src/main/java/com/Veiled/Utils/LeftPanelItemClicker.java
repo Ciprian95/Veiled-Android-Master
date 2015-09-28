@@ -11,9 +11,8 @@ import com.Veiled.Activities.ArchivedActivity;
 import com.Veiled.Activities.CollectedActivity;
 import com.Veiled.Activities.HelpActivity;
 import com.Veiled.Activities.InviteFriend;
-import com.Veiled.Activities.Old.Facebook.LogInFragmentActivity;
-import com.Veiled.Activities.MainMenuActivity;
 import com.Veiled.Activities.SettingsActivity;
+import com.Veiled.Activities.PreferencesActivity;
 
 public class LeftPanelItemClicker {
     public static void OnItemClick(ListView i_Drawerlist, final Context i_context,final Activity i_currActivity){
@@ -34,11 +33,15 @@ public class LeftPanelItemClicker {
                                 i_currActivity.startActivity(invite);
                                 break;
                             case 3:
+                                Intent preferences = new Intent(i_currActivity, PreferencesActivity.class);
+                                i_currActivity.startActivity(preferences);
+                                break;
+                            case 4:
                                 Intent settings = new Intent(i_currActivity, SettingsActivity.class);
                                 i_currActivity.startActivity(settings);
                                 break;
 
-                            case 4:
+                            case 5:
                                 Intent helpIntent = new Intent(i_currActivity, HelpActivity.class);
                                 i_currActivity.startActivity(helpIntent);
                                 break;

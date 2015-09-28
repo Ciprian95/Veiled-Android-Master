@@ -50,7 +50,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/settingsIconIV"
-            android:text="Settings"
+            android:text="Setari"
             android:textAlignment="center"
             android:textSize="25sp"
 
@@ -87,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
              android:layout_marginTop="10dp"
-            android:text="Notifications"
+            android:text="Notificari"
             android:textAlignment="center"
             android:textSize="25sp"
             />
@@ -114,7 +114,7 @@
             android:layout_below="@+id/headerNotLinLay"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="When do you want to be notified?\nPlease select the hours:"
+            android:text="Cand doriti sa fiti notificat?\nVa rugam sa selectati orele:"
             android:textAlignment="center"
             android:textSize="18sp"
             />
@@ -126,7 +126,7 @@
             android:layout_below="@+id/notificationsDetailsTV"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="WORK DAYS"
+            android:text="Luni-Vineri"
             android:textAlignment="center"
             android:textSize="20sp"
             />
@@ -209,7 +209,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Synchronize campaigns"
+            android:text="Sincronizeaza campaniile"
             android:textAlignment="center"
             android:textSize="25sp"
             />
@@ -221,7 +221,7 @@
             android:layout_below="@+id/syncCampaignsTV"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Check if new campaigns are around you \n Press the sync button !"
+            android:text="Verifica daca au aparut campanii noi in zona ta\n Apasa butonul de sincronizare !"
             android:textAlignment="center"
             android:textSize="16sp"
             />
@@ -270,7 +270,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Manage account"
+            android:text="Cont"
             android:textAlignment="center"
             android:textSize="25sp"
             />

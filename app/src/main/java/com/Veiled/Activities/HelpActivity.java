@@ -135,7 +135,7 @@ public class HelpActivity extends Activity {
     @Override
     public void onBackPressed() {
         finish();
-        Intent setIntent = new Intent(getApplicationContext(), MainMenuActivity.class);
+        Intent setIntent = new Intent(getApplicationContext(), NewMenu.class);
         setIntent.addCategory(Intent.CATEGORY_HOME);
         setIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(setIntent);

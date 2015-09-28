@@ -9,13 +9,14 @@ public class LeftSideElements {
     public static List<LeftSidePanelElement> Init(){
         List<LeftSidePanelElement> elems =  new ArrayList<LeftSidePanelElement>();
 
-        String[] elemNames = new String[]{"Collected", "Archived", "Invite a friend", "Settings", "Help"};
-        int[] elemPicRes = new int[]{R.drawable.collected, R.drawable.archived,  R.drawable.friends, R.drawable.settings, R.drawable.help };
+        String[] elemNames = new String[]{"Colectate", "Arhiva", "Invita un prieten","Preferinte", "Setari", "Help"};
+        int[] elemPicRes = new int[]{R.drawable.collected, R.drawable.archived,  R.drawable.friends,  R.drawable.iconwhite ,R.drawable.settings, R.drawable.help };
 
-        for(int i = 0; i < 5 ; i++ ){
+        for(int i = 0; i < 6 ; i++ ){
             elems.add(new LeftSidePanelElement(elemNames[i],elemPicRes[i]));
         }
 
         return elems;
     }
 }
+//am adaugat Preferences - Ciprian

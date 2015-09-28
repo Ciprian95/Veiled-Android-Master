@@ -44,7 +44,7 @@
             android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/helpIconIV"
             android:gravity="center"
-            android:text="Help"
+            android:text="Ajutor"
             android:textAlignment="center"
             android:textSize="25sp"
             />
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Main screen"
+            android:text="Ecranul principal"
             android:textAlignment="center"
             android:textSize="20sp"
             />
@@ -147,7 +147,7 @@
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/settingsHelpIV"
             android:gravity="center"
-            android:text="Settings"
+            android:text="Setari"
             android:textAlignment="center"
             android:textSize="20sp"
             />
@@ -194,7 +194,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="How to collect a sticker?"
+            android:text="Cum colectez un sticker?"
             android:textAlignment="center"
             android:textSize="20sp"
             />
@@ -268,7 +268,7 @@
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/whereCanISeeHelp2IV"
             android:gravity="center"
-            android:text="Where are my stickers?"
+            android:text="Stickerele mele?"
             android:textAlignment="center"
             android:textSize="20sp"
             />
@@ -325,7 +325,7 @@
             android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/shareLogoHelpIV"
             android:gravity="center"
-            android:text="Share with a friend !"
+            android:text="Spune-le prietenilor !"
             android:textAlignment="center"
             android:textSize="20sp"
             />

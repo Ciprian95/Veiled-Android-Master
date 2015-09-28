@@ -50,7 +50,7 @@
             android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/archivedIconIV"
             android:gravity="center"
-            android:text="Archived"
+            android:text="Arhiva"
             android:textAlignment="center"
             android:textSize="20sp"
             />
@@ -80,7 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="You have no archived stickers!"
+            android:text="Nu ai niciun sticker colectat!"
             android:textAlignment="center"
             android:textSize="25sp"
             android:visibility="invisible"
